@@ -1,0 +1,75 @@
+{
+   "Events":[
+      {
+         "id":1,
+         "name":"event1",
+         "dateFrom":"2017-06-12-12-20",
+         "dateTo":"2017-06-12-14-20",
+         "roomName":"Blue Room",
+         "roomID" : 1,
+         "description":"Hi this is a bew Event ",
+         "photoUrl":"www.google.com"
+      }
+   ],
+   "users":[
+      {
+         "id":1,
+         "username":"OmarEldardear",
+         "password":"OmarEldardear",
+         "email":"dardearynote@gmail.com",
+         "job":"ios Developer",
+         "number":"01098979623",
+         "photoUrl":"www.google.com"
+      }
+   ],
+   "posts":[
+      {
+         "id":1,
+         "userID":1,
+         "content":"Hi this is a new post ",
+         "time":"2017-06-12-14-20"
+      }
+   ],
+   "Rooms":[
+      {
+         "id":1,
+         "name":"Blue Room",
+         "capacity":12,
+         "price":60,
+         "photoUrl":"www.google.com"
+      }
+   ],
+   "eventStatus":[
+      {
+         "id":1,
+         "status":"going",
+         "eventID":1,
+         "userID":"OmarEldardear"
+      }
+   ],
+   "postLikes":[
+      {
+         "id":1,
+         "postID":1,
+         "userID":1,
+         "userName": "Omar Eldardear"
+      }
+   ],
+   "postComments":[
+      {
+         "id":1,
+         "userID":1,
+         "postID":1,
+         "userName": "Omar Eldardear",
+         "content":"Hi This is a new Comment"
+      }
+   ],
+   "reservations":[
+      {
+         "start":"2017-06-12-14-20",
+         "end":"2017-06-12-14-20",
+         "userID":1,
+         "roomID":1
+      }
+   ]
+}
